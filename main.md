@@ -240,9 +240,33 @@ git reset --hard commitnuevo
 
 ## Clonar repositorios
 
-Para descargarlo en la computador
+### Descargar y sincronizar repositorios
+Para clonar un repositorio a tu computadora:
 
+```bash
 git clone enlace
+```
 
-Para llevar a la plataforma desde mi pc
+Para subir cambios a la plataforma desde tu computadora:
 
+```bash
+git push
+```
+
+Para actualizar el repositorio local con los cambios realizados en remoto:
+
+```bash
+git pull
+```
+
+Para obtener los cambios remotos sin aplicarlos automáticamente:
+
+```bash
+git fetch
+```
+
+Para configurar el push predeterminado:
+
+```bash
+git push -u origin master
+```
